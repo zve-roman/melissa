@@ -1,0 +1,533 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<title>Ассортимент кофе</title>
+	<!-- Bootstrup -->
+	<link rel="stylesheet" href="bower/bootstrap/dist/css/bootstrap.min.css">
+<!-- 	<link rel="stylesheet" href="css/jquery-ui.min.css"> -->
+	<link rel="stylesheet" href="bower/jquery/dist/jquery.min.css">
+	<!-- Артик модал -->
+	<link rel="stylesheet" href="css/jquery.arcticmodal-0.3.css">
+	<link rel="stylesheet" href="css/simple.css">
+	<link rel="stylesheet" href="node_modules/bxslider/dist/jquery.bxslider.min.css">
+	<!-- <link rel="stylesheet" href="node_modules/bxslider/dist/jquery.bxslider.css"> -->
+	<!-- лайтбокс -->
+	<link rel="stylesheet" href="node_modules/lightbox2\dist/css/lightbox.min.css">
+
+	<link rel="stylesheet" href="css/main.css">
+	<!-- Шрифты -->
+	<!-- OpenSans-Regular -->
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+	<!-- OpenSans-Extra-bold -->
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;800&display=swap" rel="stylesheet">
+
+</head>
+<body>
+	<!-- __Шапка__ -->
+	<header>
+		<div class="header">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-1">
+						<div class="img__logo">
+							<img src="img/Logo.png" alt="лого Меллиса" title="Меллиса">
+						</div>
+					</div>
+					<div class="col-md-7">
+						<h1 class="head__inscript">
+							Ассортимент кофе
+						</h1>
+					</div>
+					<div class="col-md-4">
+						<div class="information">
+							Ждём вашего звонка
+						</div>
+						<div class="tell">
+							+7 965 187 31 35
+						</div>
+					</div>
+				</div>
+			</div>
+			
+		</div>
+		
+
+		<!-- ___Второй экран наполнение____ -->
+				
+				<div class="hit__sale">
+					<div class="container">
+						<!-- ПЕРВАЯ ЛИНИЯ -->
+						<!-- ПЕРВЫЙ БЛОК -->
+						<div class="row pervay_liniy">
+							<div class="col-md-3" onclick="$('#exampleModal_Kof_Rom').arcticmodal()">
+								<div class="hit__sale_assortiment">
+									<p class="hit__sale_zag upper bolder center">
+										<b>Грюнберг</b> <br>Коста-Рика
+									</p>
+									<div class="photo_coffee">
+										<img src="img/Coffee/Grunberg_Kosta_rika.jpg">
+									</div>
+									
+									<p class="hit__discription">
+										<b>Насыщенный, ягодные и шоколадные нотки</b>...
+									</p>
+									<div class="hit__sale_botton center">
+										<b>Цена 100 р.</b>
+									</div>
+								</div>
+							</div>
+							<!-- Всплывающее окно с описанием -->
+							<div style="display: none;"> 
+		   	 					<div class="box-modal" id="exampleModal_Kof_Rom">
+									<div class="box-modal_close arcticmodal-close">закрыть
+									</div>
+								 	<img src="img/Coffee/Grunberg_Kosta_rika.jpg">
+								 	<p>
+										<b>Насыщенный, ягодные и шоколадные нотки.</b> Выразительный вкус с шоколадными оттенками, сопровождающимися приятной ягодной кислинкой с небольшой горчинкой в послевкусии.
+								 	</p>
+								</div>
+							</div>
+						<!-- ВТОРОЙ БЛОК -->
+							<div class="col-md-3" onclick="$('#exampleModal_Gr_Brasil').arcticmodal()">
+								<div class="hit__sale_assortiment">
+									<p class="hit__sale_zag upper bolder center">
+										<b>Грюнберг</b> <br>"Бразилия"
+									</p>
+									<div class="photo_coffee">
+										<img src="img/Coffee/Grunberg_Brasil.jpg">
+									</div>
+									<p class="hit__discription">
+										<b>Горький шоколад, фрукты, лесной орех</b>...
+									</p>
+									<div class="hit__sale_botton center">
+										<b>Цена 85 р.</b>
+									</div>
+								</div>
+							</div>
+							<!-- Всплывающее окно с описанием -->
+							<div style="display: none;"> 
+		   	 					<div class="box-modal" id="exampleModal_Gr_Brasil">
+									<div class="box-modal_close arcticmodal-close">закрыть
+									</div>
+								 	<img src="img/Coffee/Grunberg_Brasil.jpg">
+								 	<p>
+										<b>Горький шоколад, фрукты, лесной орех.</b>
+										Терпкий вкус с насыщенным оттенком горького шоколада, сливочно-ореховыми нотами и легкой фруктовой кислинкой в послевкусии.
+										Один из лучших сортов для альтернативного способа заваривания.
+								 	</p>
+								</div>
+							</div>
+						<!-- ТРЕТИЙ БЛОК -->
+							<div class="col-md-3" onclick="$('#exampleModal_CoF_Rom').arcticmodal()">
+								<div class="hit__sale_assortiment">
+									<p class="hit__sale_zag upper bolder center">
+										<b>Кофе</b> <br>"РОМ"
+									</p>
+									<div class="photo_coffee">
+										<img src="img/Coffee/Rom.jpg">
+									</div>
+									<p class="hit__discription">
+										<b>Кофе для ценителей кубинского рома</b>...
+									</p>
+									<div class="hit__sale_botton center">
+										<b>Цена 85 р.</b>
+									</div>
+								</div>
+							</div>
+							<!-- Всплывающее окно с описанием -->
+							<div style="display: none;"> 
+		   	 					<div class="box-modal" id="exampleModal_CoF_Rom">
+									<div class="box-modal_close arcticmodal-close">закрыть
+									</div>
+								 	<img src="img/Coffee/Rom.jpg">
+								 	<p>
+										<b>Кофе для ценителей кубинского рома.</b> Терпкий и горьковатый вкус настоящего южноамериканского кофе гармонично комбинируется с пьянящим ароматом рома. Букет дополняют шоколадно-карамельные нотки, дающие приятный привкус на языке. Изысканный десерт для окончания лёгкой трапезы.
+								 	</p>
+								</div>
+							</div>
+						<!-- ЧЕТВЕРТЫЙ БЛОК -->
+							<div class="col-md-3" onclick="$('#exampleModal_Kof_kapuchino').arcticmodal()">
+								<div class="hit__sale_assortiment">
+									<p class="hit__sale_zag upper bolder center">
+										<b>Кофе</b> <br>Капучино
+									</p>
+									<div class="photo_coffee">
+										<img src="img/Coffee/Kapuchino.jpg">
+									</div>
+									<p class="hit__discription">
+										<b>Кофе по классическому итальянскому рецепту с ароматом</b>...
+									</p>
+									<div class="hit__sale_botton center">
+										<b>Цена 85 р.</b>
+									</div>
+								</div>
+							</div>
+							<!-- Всплывающее окно с описанием -->
+							<div style="display: none;"> 
+		   	 					<div class="box-modal" id="exampleModal_Kof_kapuchino">
+									<div class="box-modal_close arcticmodal-close">закрыть
+									</div>
+								 	<img src="img/Coffee/Kapuchino.jpg">
+								 	<p>
+										<b>Кофе по классическому итальянскому рецепту с ароматом капучино.</b>Сливочная мягкость и крепость натурального кофе – безупречное сочетание, которое знают и любят во всём мире.
+
+								 	</p>
+								</div>
+							</div>
+						</div>
+						<!-- ВТОРАЯ ЛИНИЯ -->
+						<!-- ПЕРВЫЙ БЛОК -->
+						<div class="row pervay_liniy">
+							<div class="col-md-3" onclick="$('#exampleModal_Kof_karamel').arcticmodal()">
+								<div class="hit__sale_assortiment">
+									<p class="hit__sale_zag upper bolder center">
+										<b>Кофе</b> <br>"Карамель"
+									</p>
+									<div class="photo_coffee">
+										<img src="img/Coffee/Kofe_caramel.jpg">
+									</div>
+									
+									<p class="hit__discription">
+										<b>Мягкий десертный кофе с ароматом молочной карамели</b>...
+									</p>
+									<div class="hit__sale_botton center">
+										<b>Цена 80 р.</b>
+									</div>
+								</div>
+							</div>
+							<!-- Всплывающее окно с описанием -->
+							<div style="display: none;"> 
+		   	 					<div class="box-modal" id="exampleModal_Kof_karamel">
+									<div class="box-modal_close arcticmodal-close">закрыть
+									</div>
+								 	<img src="img/Coffee/Kofe_caramel.jpg">
+								 	<p>
+										<b>Мягкий десертный кофе с ароматом молочной карамели.</b> Нежный бархатистый вкус натуральной, свежеобжаренной арабики в сочетании с карамелью, создают атмосферу волшебства, оставляя длительное и приятное послевкусие с лёгким оттенком ванили.
+
+								 	</p>
+								</div>
+							</div>
+						<!-- ВТОРОЙ БЛОК -->
+							<div class="col-md-3" onclick="$('#exampleModal_Lesnoy_Oreh').arcticmodal()">
+								<div class="hit__sale_assortiment">
+									<p class="hit__sale_zag upper bolder center">
+										<b>Кофе</b> <br>"Лесной орех"
+									</p>
+									<div class="photo_coffee">
+										<img src="img/Coffee/Kofe_Lesnoy_Oreh.jpg">
+									</div>
+									<p class="hit__discription">
+										<b>Крепкий, свежеобжаренный кофе с ярким ароматом лесного ореха</b>...
+									</p>
+									<div class="hit__sale_botton center">
+										<b>Цена 80 р.</b>
+									</div>
+								</div>
+							</div>
+							<!-- Всплывающее окно с описанием -->
+							<div style="display: none;"> 
+		   	 					<div class="box-modal" id="exampleModal_Lesnoy_Oreh">
+									<div class="box-modal_close arcticmodal-close">закрыть
+									</div>
+								 	<img src="img/Coffee/Kofe_Lesnoy_Oreh.jpg">
+								 	<p>
+										 <b>Крепкий, свежеобжаренный кофе с ярким ароматом лесного ореха.</b> Прекрасное сочетание шоколадно-кофейных и ореховых ноток в готовом напитке создает приятное ощущение тепла и уюта. Идеальный кофе для завтрака и отличный десерт для завершения трапезы.
+
+								 	</p>
+								</div>
+							</div>
+						<!-- ТРЕТИЙ БЛОК -->
+							<div class="col-md-3" onclick="$('#exampleModal_Irland_Krem').arcticmodal()">
+								<div class="hit__sale_assortiment">
+									<p class="hit__sale_zag upper bolder center">
+										<b>Кофе</b> <br>"Ирландский крем"
+									</p>
+									<div class="photo_coffee">
+										<img src="img/Coffee/Irlandsky_Krem.jpg">
+									</div>
+									<p class="hit__discription">
+										<b>Яркий и многослойный аромат нежных сливок в сочетании</b>...
+									</p>
+									<div class="hit__sale_botton center">
+										<b>Цена 85 р.</b>
+									</div>
+								</div>
+							</div>
+							<!-- Всплывающее окно с описанием -->
+							<div style="display: none;"> 
+		   	 					<div class="box-modal" id="exampleModal_Irland_Krem">
+									<div class="box-modal_close arcticmodal-close">закрыть
+									</div>
+								 	<img src="img/Coffee/Irlandsky_Krem.jpg">
+								 	<p>
+										<b>Яркий и многослойный аромат нежных сливок в сочетании со вкусом свежеобжаренного кофе,</b> хорошо знаком всем любителям знаменитого ирландского ликера «Irish Cream». Композиция вкусов и ароматов удачно дополняется шоколадно-ореховыми нотками с приятным винно-сливочным послевкусием.
+
+								 	</p>
+								</div>
+							</div>
+						<!-- ЧЕТВЕРТЫЙ БЛОК -->
+							<div class="col-md-3" onclick="$('#exampleModal_Kof_kapuchino').arcticmodal()">
+								<div class="hit__sale_assortiment">
+									<p class="hit__sale_zag upper bolder center">
+										<b>Кофе</b> <br>"Эфиопия Сидамо"
+									</p>
+									<div class="photo_coffee">
+										<img src="img/Coffee/Kapuchino.jpg">
+									</div>
+									<p class="hit__discription">
+										<b>Яркие цветочные ноты, тропические фрукты и кислотность спелого лимона</b>...
+									</p>
+									<div class="hit__sale_botton center">
+										<b>Цена 120 р.</b>
+									</div>
+								</div>
+							</div>
+							<!-- Всплывающее окно с описанием -->
+							<div style="display: none;"> 
+		   	 					<div class="box-modal" id="exampleModal_Kof_kapuchino">
+									<div class="box-modal_close arcticmodal-close">закрыть
+									</div>
+								 	<img src="img/Coffee/Kapuchino.jpg">
+								 	<p>
+								 		<b>Яркие цветочные ноты, тропические фрукты и кислотность спелого лимона</b>
+								 	</p>
+								</div>
+							</div>
+						</div>
+						<!-- ТРЕТЬЯ ЛИНИЯ -->
+						<!-- ПЕРВЫЙ БЛОК -->
+						<div class="row pervay_liniy">
+							<div class="col-md-3" onclick="$('#exampleModal_Kolumb_Dulima').arcticmodal()">
+								<div class="hit__sale_assortiment">
+									<p class="hit__sale_zag upper bolder center">
+										<b>Кофе</b> <br>"Колумбия Дулима"
+									</p>
+									<div class="photo_coffee">
+										<img src="img/Coffee/Kolumbiy_Dulima.jpg">
+									</div>
+									
+									<p class="hit__discription">
+										<b>Отчетливые ноты темного винограда</b>...
+									</p>
+									<div class="hit__sale_botton center">
+										<b>Цена 80 р.</b>
+									</div>
+								</div>
+							</div>
+							<!-- Всплывающее окно с описанием -->
+							<div style="display: none;"> 
+		   	 					<div class="box-modal" id="exampleModal_Kolumb_Dulima">
+									<div class="box-modal_close arcticmodal-close">закрыть
+									</div>
+								 	<img src="img/Coffee/Kolumbiy_Dulima.jpg">
+								 	<p>
+										<b>Отчетливые ноты темного винограда,</b> красного яблока и горького шоколада. Яркая кислотность и высокая сладость
+
+								 	</p>
+								</div>
+							</div>
+						<!-- ВТОРОЙ БЛОК -->
+							<div class="col-md-3" onclick="$('#exampleModal_Efiopiy_sidamo').arcticmodal()">
+								<div class="hit__sale_assortiment">
+									<p class="hit__sale_zag upper bolder center">
+										<b>Кофе</b> <br>"Эфиопия Сидамо"
+									</p>
+									<div class="photo_coffee">
+										<img src="img/Coffee/Efiopiy_Sidamo.jpg">
+									</div>
+									<p class="hit__discription">
+										<b>Яркие цветочные ноты тропические фрукты</b>...
+									</p>
+									<div class="hit__sale_botton center">
+										<b>Цена 120 р.</b>
+									</div>
+								</div>
+							</div>
+							<!-- Всплывающее окно с описанием -->
+							<div style="display: none;"> 
+		   	 					<div class="box-modal" id="exampleModal_Efiopiy_sidamo">
+									<div class="box-modal_close arcticmodal-close">закрыть
+									</div>
+								 	<img src="img/Coffee/Efiopiy_Sidamo.jpg">
+								 	<p>
+								 		<b>Яркие цветочные ноты,</b> тропические фрукты и кислотность спелого лимона
+								 	</p>
+								</div>
+							</div>
+						<!-- ТРЕТИЙ БЛОК -->
+							<div class="col-md-3" onclick="$('#exampleModal_Italia_Freez').arcticmodal()">
+								<div class="hit__sale_assortiment">
+									<p class="hit__sale_zag upper bolder center">
+										<b>Кофе</b> <br>"Итальянская обжарка "
+									</p>
+									<div class="photo_coffee">
+										<img src="img/Coffee/Italyn_Obzgarka.jpg">
+									</div>
+									<p class="hit__discription">
+										<b>Насыщенный кофе с ярко выраженной горечью</b>...
+									</p>
+									<div class="hit__sale_botton center">
+										<b>Цена 80 р.</b>
+									</div>
+								</div>
+							</div>
+							<!-- Всплывающее окно с описанием -->
+							<div style="display: none;"> 
+		   	 					<div class="box-modal" id="exampleModal_Italia_Freez">
+									<div class="box-modal_close arcticmodal-close">закрыть
+									</div>
+								 	<img src="img/Coffee/Italyn_Obzgarka.jpg">
+								 	<p>
+								 		<b>Насыщенный кофе с ярко выраженной горечью</b> и нотами горького шоколада и специй, практически без кислотности
+								 	</p>
+								</div>
+							</div>
+						<!-- ЧЕТВЕРТЫЙ БЛОК -->
+							<div class="col-md-3" onclick="$('#exampleModal_Keniy_aa').arcticmodal()">
+								<div class="hit__sale_assortiment">
+									<p class="hit__sale_zag upper bolder center">
+										<b>Кофе</b> <br>"Кения АА Маунт"
+									</p>
+									<div class="photo_coffee">
+										<img src="img/Coffee/Keniy_AA_Maunt.jpg">
+									</div>
+									<p class="hit__discription">
+										<b>Яркий вкус красной смородины и какао</b>...
+									</p>
+									<div class="hit__sale_botton center">
+										<b>Цена 140 р.</b>
+									</div>
+								</div>
+							</div>
+							<!-- Всплывающее окно с описанием -->
+							<div style="display: none;"> 
+		   	 					<div class="box-modal" id="exampleModal_Keniy_aa">
+									<div class="box-modal_close arcticmodal-close">закрыть
+									</div>
+								 	<img src="img/Coffee/Keniy_AA_Maunt.jpg">
+								 	<p>
+								 		<b>Яркий вкус красной смородины и какао</b> с нотами черного чая на послевкусии
+								 	</p>
+								</div>
+							</div>
+						</div>
+						<!-- ЧЕТВЕРТАЯ ЛИНИЯ -->
+						<!-- ПЕРВЫЙ БЛОК -->
+						<div class="row pervay_liniy">
+							<div class="col-md-3" onclick="$('#exampleModal_Maragodjip').arcticmodal()">
+								<div class="hit__sale_assortiment">
+									<p class="hit__sale_zag upper bolder center">
+										<b>Кофе</b> <br>"Марагоджип Никарагуа"
+									</p>
+									<div class="photo_coffee">
+										<img src="img/Coffee/Maragodjip_Nikaragua.jpg">
+									</div>
+									
+									<p class="hit__discription">
+										<b>Паприка, молочный шоколад</b>...
+									</p>
+									<div class="hit__sale_botton center">
+										<b>Цена 160 р.</b>
+									</div>
+								</div>
+							</div>
+							<!-- Всплывающее окно с описанием -->
+							<div style="display: none;"> 
+		   	 					<div class="box-modal" id="exampleModal_Maragodjip">
+									<div class="box-modal_close arcticmodal-close">закрыть
+									</div>
+								 	<img src="img/Coffee/Maragodjip_Nikaragua.jpg">
+								 	<p>
+								 		<b>Паприка, молочный шоколад</b>, сухофрукты и яркая кислотность красного яблока
+
+								 	</p>
+								</div>
+							</div>
+						<!-- ВТОРОЙ БЛОК -->
+							<div class="col-md-3" onclick="$('#exampleModal_Sul_de_minas').arcticmodal()">
+								<div class="hit__sale_assortiment">
+									<p class="hit__sale_zag upper bolder center">
+										<b>Кофе</b> <br>"Бразилия Суль-де-Минас"
+									</p>
+									<div class="photo_coffee">
+										<img src="img/Coffee/Brasiliy_Sul-de-Minas.jpg">
+									</div>
+									<p class="hit__discription">
+										<b>Высокая сладость, вкус с нотами арахиса</b>...
+									</p>
+									<div class="hit__sale_botton center">
+										<b>Цена 120 р.</b>
+									</div>
+								</div>
+							</div>
+							<!-- Всплывающее окно с описанием -->
+							<div style="display: none;"> 
+		   	 					<div class="box-modal" id="exampleModal_Sul_de_minas">
+									<div class="box-modal_close arcticmodal-close">закрыть
+									</div>
+								 	<img src="img/Coffee/Brasiliy_Sul-de-Minas.jpg">
+								 	<p>
+								 		<b>Высокая сладость, вкус с нотами арахиса</b>, пудры какао и цедры лимона
+								 	</p>
+								</div>
+							</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- ___<<Футер>>___ -->
+		<footer>
+			<div class="footer">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-9">
+							<div class="social__net wite">
+								<div class="instagramm__adress_inst">
+									https://instagram.com/melissa.uren
+								</div>
+							</div>
+							<div class="social__net wite">
+								<p class="instagramm__adress_bk">
+									https://vk.com/melissa.uren
+								</p>
+							</div>
+							<div class="social__net_tell wite">
+								<p class="instagramm__adress">
+									+7 965 187 31 35
+								</p>
+							</div>
+						</div>
+						<div class="col-md-3 ">
+							<div class="social__net_logo wite">
+								<div class="foot__logo_title">
+									C любовью к вам!
+								</div>
+								<div class="foot__logo_tell" poll-left>
+									г. Урень, ул. Ленина, 
+									д. 101а <br>
+									(здание типографии)
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+		
+	</header>
+
+	<script src="bower/bootstrap/dist/js/bootstrap.js"></script>
+	<script src="bower/bootstrap/dist/js/bootstrap.min.js"></script>
+	<script src="bower/jquery/dist/jquery.min.js"></script>
+	<script src="bower/jquery/dist/jquery.js"></script>
+	<script src="js/main.js"></script>	
+	<script src="js/jquery.arcticmodal-0.3.min.js"></script>
+	<script src="node_modules/bxslider/dist/jquery.bxslider.min.js"></script>
+
+	<!-- ___<<Яндекс>>___ -->
+	<script src="https://api-maps.yandex.ru/2.1/?apikey=ваш API-ключ&lang=ru_RU" type="text/javascript"> </script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</body>
+</html>

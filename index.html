@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-vidth, initial-scale=1">
+	<title>Мелисса чайно-кофейная лавка</title>
+	<!-- Bootstrup -->
+	<link rel="stylesheet" href="bower/bootstrap/dist/css/bootstrap.min.css">
+<!-- 	<link rel="stylesheet" href="css/jquery-ui.min.css"> -->
+	<link rel="stylesheet" href="bower/jquery/dist/jquery.min.css">
+	<!-- Артик модал -->
+	<link rel="stylesheet" href="css/jquery.arcticmodal-0.3.css">
+	<link rel="stylesheet" href="css/simple.css">
+	<link rel="stylesheet" href="node_modules/bxslider/dist/jquery.bxslider.min.css">
+	<!-- <link rel="stylesheet" href="node_modules/bxslider/dist/jquery.bxslider.css"> -->
+	<!-- лайтбокс -->
+	<link rel="stylesheet" href="node_modules/lightbox2\dist/css/lightbox.min.css">
+
+	<link rel="stylesheet" href="css/main.css">
+	<!-- Шрифты -->
+	<!-- OpenSans-Regular -->
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+	<!-- OpenSans-Extra-bold -->
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;800&display=swap" rel="stylesheet">
+
+</head>
+<body>
+	<!-- __Шапка__ -->
+	<header>
+		<div class="header">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-1">
+						<div class="img__logo">
+							<img src="img/Logo.png" alt="лого Меллиса" title="Меллиса">
+						</div>
+					</div>
+					<div class="col-md-7">
+						<h1 class="head__inscript">
+							Чайно-кофейная лавка
+						</h1>
+					</div>
+					<div class="col-md-4">
+						<div class="information">
+							Ждём вашего звонка
+						</div>
+						<div class="tell">
+							+7 965 187 31 35
+						</div>
+					</div>
+				</div>
+			</div>
+			
+		</div>
+		<!-- ___МЕНЮ ЧАЙ КОФЕ Подар наборы___ -->
+		<div class="first">
+			<div class="container">
+				<div class="row">
+					<nav>
+						<ul class="menu">
+							<li class="menu__item">
+								<a href="tee.html">Чай</a>
+							</li>
+							<li class="menu__item">
+								<a href="coffee.html">Кофе</a>
+							</li>
+							<li class="menu__item">
+								<a href="Produkti_Pitaniy.html">Продукты питания</a>
+							</li>
+							<li class="menu__item">
+								<a href="Uhod_za_Telom.html#">Корейская косметика</a>
+							</li>
+							<li class="menu__item">
+								<a href="Suveniry.html">Сувениры</a>
+							</li>
+						</ul>
+					</nav>
+				</div>
+			</div>
+		</div>
+		<!-- ____Второе поле "ХИТЫ ПРОДАЖ - Заголовок"____ -->
+		<div class="hit__title">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<h2 class="hit__sale_new">
+							Хиты продаж
+						</h2>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- ___Второй экран наполнение____ -->
+		<div class="hit__sale">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-3" onclick="$('#exampleModal_TEE').arcticmodal()">
+						<div class="hit__sale_assortiment">
+							<p class="hit__sale_zag upper bolder center">
+								Чай
+							</p>
+							<img src="img/urenski-les.jpg" alt="Сказки Уренского леса" class="hit__sale_pic">
+							<p class="hit__sale_title center upper">
+								Чай <br> "Сказки Уренского леса"
+							</p>
+							<div class="hit__sale_botton center">
+								Цена 100 р.
+							</div>
+						</div>
+					</div>
+					<!-- Всплывающее окно с описанием -->
+					<div style="display: none;"> 
+   	 					<div class="box-modal" id="exampleModal_TEE">
+							<div class="box-modal_close arcticmodal-close">закрыть
+							</div>
+						 	<img src="img/urenski-les.jpg" alt="сказки Уренского леса" class="hit__sale_pic">
+						 	<p>
+						 		<b>Состав чая </b>
+								Черный индийский чай с добавлением плодов можжевельника и боярышника, клюквы, мяты, листьев брусники и оливы, василька или мальвы, календулы и ароматом лесных ягод.<br>
+								<b>Вкусовые особенности</b>
+								Таежный чай с можжевеловыми ягодками, брусничным листом и клюквой подарит вам волшебное настроение, погрузив в атмосферу таежного леса. Это согревающий напиток, который окутает теплом, благодаря силе северной природы.<br>	
+								<b>Как заваривать</b>
+								- Одна чайная ложка на 200 мл. воды.
+								- 3-5 минут, при температуре 90-95 градусов.
+						 	</p>
+						</div>
+					</div>
+					<!-- Конец всплывающего окна с описанием -->
+					<div class="col-md-3" onclick="$('#exampleModal_koffee').arcticmodal()">
+						<div class="hit__sale_assortiment">
+							<p class="hit__sale_zag upper bolder center">
+								Кофе
+							</p>
+							<img src="img/kofe-rom.jpg" alt="Кофе" class="hit__sale_pic">
+							<p class="hit__sale_title center upper">
+								Кофе <br> "Ром"
+							</p>
+							<div class="hit__sale_botton center">
+								Цена 100 р.
+							</div>
+						</div>
+					</div>
+					<!-- Всплывающее окно с описанием -->
+					<div style="display: none;"> 
+   	 					<div class="box-modal" id="exampleModal_koffee">
+							<div class="box-modal_close arcticmodal-close">закрыть
+							</div>
+						 	<img src="img/kofe-rom.jpg" alt="Кофе" class="hit__sale_pic">
+						 	<p>
+						 		<strong>Ароматизированный кофе </strong><b>«Кубинский Ром»</b> – экстравагантный напиток, получивший признание во всем мире. Созданный путем пропитывания 100% арабики Бразилия Сантос дорогостоящими натуральными ароматизаторами из Швейцарии и Франции, он позволил разом решить такую проблему, как желание скрасить вечер алкогольным коктейлем. А секрет ее разрешения прост – дальновидные немцы, чтущие мораль и законы, придумали добавлять в кофе такой алкогольный напиток, как ром. Сначала невероятно ароматный и согревающий напиток прижился у кофеманов в таком виде, а позже нашел свое воплощение в виде эксперимента с ароматизацией кофейных зерен.
+						 	</p>
+						</div>
+					</div>
+					<!-- Конец всплывающего окна с описанием -->
+					<div class="col-md-3" onclick="$('#exampleModal_present').arcticmodal()">
+						<div class="hit__sale_assortiment">
+							<p class="hit__sale_zag upper bolder center">
+								Подарочные наборы
+							</p>
+							<img src="img/Podarchnie-nabori.jpg" alt="Подарочные Наборы" class="hit__sale_pic">
+							<p class="hit__sale_title center upper">
+								Подарочные наборы <br> Чайно-кофейные букеты
+							</p>
+							<div class="hit__sale_botton center">
+								Цена 100 р.
+							</div>
+						</div>
+					</div>
+					<!-- Всплывающее окно с описанием -->
+					<div style="display: none;"> 
+   	 					<div class="box-modal" id="exampleModal_present">
+							<div class="box-modal_close arcticmodal-close">закрыть
+							</div>
+						 	<img src="img/Podarchnie-nabori.jpg" alt="Поздравительные наборы" class="hit__sale_pic">
+						 	<p>
+						 		<strong>В нашей мастерской есть хит продаж - необыЧАЙные букеты.</strong>
+								Наши букеты — это калейдоскоп яркого вкуса лета, путешествий по дивным местам и далеким жарким странам.
+								Это дурманящий фруктовый аромат южного ветра, силы и свободы.
+								Чай из букета подарит вам радость, бодрость и энергию на целый день, а к вечеру, после сложного дня восстановит силы. Расслабит для приятных воспоминаний в компании любимых друзей или в тихом семейном кругу.
+								Ароматы чайных купажей унесут вас, на волнах воспоминаний, к лазурным берегам Индийского океана, погрузят в атмосферу ласкающего бриза и солнечных склонов южных холмов.
+								Наш букет это композиция из семи чаев с десертным наполнением.
+								Яркие фруктовые ароматы, лепестки цветов, кусочки сочных фруктов напомнят о райском отдыхе и безмятежных прогулках по незнакомым улочкам. 
+						 	</p>
+						</div>
+					</div>
+					<!-- Конец всплывающего окна с описанием -->
+					<div class="col-md-3" onclick="$('#exampleModal_korean').arcticmodal()">
+						<div class="hit__sale_assortiment">
+							<p class="hit__sale_zag upper bolder center">
+								Корейская косметика
+							</p>
+							<img src="img/maska-kor.jpg" alt="Корейская косметика" class="hit__sale_pic">
+							<p class="hit__sale_title center upper">
+								Тканевая<br> Маска для лица
+							</p>
+							<div class="hit__sale_botton center">
+								Цена 100 р.
+							</div>
+						</div>
+					</div>
+					<!-- Всплывающее окно с описанием -->
+					<div style="display: none;"> 
+   	 					<div class="box-modal" id="exampleModal_korean">
+							<div class="box-modal_close arcticmodal-close">закрыть
+							</div>
+						 	<img src="img/maska-kor.jpg" alt="Корейская косметика" class="hit__sale_pic">
+						 	<p>
+						 		Маски для лица <b>Deep Power Ringer Mask</b> от корейского бренда Elizavecca – эффективное и удобное экспресс-решение любой проблемы.<br>
+
+								<b>Elizavecca Aqua Deep Power Ringer Mask</b> – увлажняющая и отбеливающая маска, компоненты которой проникают в глубокие слои эпидермиса.<br>
+
+								<b>Elizavecca Centella Asiatica Deep Power Ringer Mask</b> с экстрактом центеллы азиатской стимулирует синтез собственного коллагена кожи, заживляет её, успокаивает и снимает воспаления.<br>
+
+								<b>Elizavecca Collagen Deep Power Ringer Mask</b> с антивозрастным эффектом содержит коллеген, который увлажняет кожу и разглаживает морщинки.<br>
+
+								<b>Elizavecca EGF Deep Power Ringer Mask</b> обладает антивозрастным действием. Она содержит эпителиальный фактор роста (EGF) – полипептид, который помогает коже вырабатывать собственный коллаген, а также стимулирует рост и развитие клеток.<br>
+
+								<b>Elizavecca Fruits Deep Power Ringer Mask</b> с экстрактами фруктов увлажняет кожу и улучшает цвет лица.<br>
+
+								<b>Elizavecca Honey Deep Power Ringer Mask</b> с мёдом увлажняет, смягчает и подтягивает кожу, разглаживает мимические морщинки.<br>
+
+								<b>Elizavecca Milk Deep Power Ringer Mask</b> с молоком увлажняет кожу и делает её упругой. В составе есть гиалуроновая кислота, которая притягивает к себе молекулы воды, насыщая ими клетки эпидермиса.<br>
+
+								<b>Elizavecca Red Ginseng Deep Power Ringer Mask</b> с экстрактом женьшеня глубоко увлажняет и отбеливает кожу, придаёт ей сияние и здоровый вид, разглаживает морщинки.<br>
+
+								<b>Elizavecca Tea Tree Deep Power Ringer Mask</b> с экстрактом чайного дерева очищает и успокаивает проблемную кожу.
+
+								<b>Elizavecca Vita Deep Power Ringer Mask</b> с обогащенной витаминами водой делает кожу чистой, свежей и сияющей.<br>
+								<b>Объём: 23 мл.</b><br>
+								Способ применения:</b><br>
+								Вытащите маску из упаковки, наложите на чистое увлажнённое лицо и расправьте. Через 20-30 минут снимите средство, вбейте остатки эмульсии в кожу лёгкими похлопывающими движениями и оставьте до полного впитывания.
+						 	</p>
+						</div>
+					</div>
+					<!-- Конец всплывающего окна с описанием -->
+				</div>
+			</div>
+		</div>
+		<!-- ____Третье поле "Новинки - Заголовок"____ -->
+		<div class="hit__title">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<h2 class="hit__sale_new">
+							Новинки
+						</h2>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- Третий экран -->
+		<div class="new__sale">
+			<div class="container">
+				<div class="row">
+					<!--  -->
+					<div class="col-md-3" onclick="$('#exampleModal5_').arcticmodal(options_tea)">
+						<div class="hit__sale_assortiment">
+							<p class="hit__sale_zag upper bolder center">
+								Набор чайный
+							</p>
+							<img src="img/Nabor-tee.jpg" alt="Чайные наборы" class="hit__sale_pic">
+							<p class="hit__sale_title center upper">
+								Подарок <br> Чайный набор
+							</p>
+							<div class="hit__sale_botton center">
+								Цена 100 р.
+							</div>
+						</div>
+						<!-- Всплывающее окно с описанием -->
+							<div style="display: none;"> 
+								<div class="box-modal" id="exampleModal5_">
+									<div class="wap__slider">
+										<div class="slider_tea">
+											<div><img src="img/domik_01.jpg" alt="Чайный домик" title="Чайный домик"></div>
+											<div><img src="img/CuP_01.jpg" alt="Cup" title="Кружка пдарочная"></div>
+								 			<div><img src="img/Yagod_sm.jpg" alt="Ягодная смесь" title="Ягодная смесь"></div>
+								 			<div><img src="img/yagod_s_t.jpg" alt="чайня смесь" title="чайная смесь"></div>
+										</div>
+									</div>
+								</div>
+							</div>
+						<!-- Конец всплывающего окна с описанием -->
+					</div>
+					<div class="col-md-3" onclick="$('#exampleModal_new_med').arcticmodal(options_honey)">
+						<div class="hit__sale_assortiment">
+							<p class="hit__sale_zag upper bolder center">
+								Мёд
+							</p>
+							<img src="img/Nectar.jpg" alt="Мёд с добавками" class="hit__sale_pic">
+							<p class="hit__sale_title center upper">
+								Вкуснейший <br> мёд на любой вкус
+							</p>
+							<div class="hit__sale_botton center">
+								Цена 100 р.
+							</div>
+						</div>
+					</div>
+					<!-- Всплывающее окно с описанием -->
+					<div style="display: none;"> 
+   	 					<div class="box-modal" id="exampleModal_new_med">
+							<div class="box-modal_close arcticmodal-close">закрыть</div>
+							<div class="wap__slider">
+								<div class="slider_honey">
+								<div><img src="img/med_chernoklenovi.jpg" alt="Мед чернокленовый" title="Мед чернокленовый"></div>
+								<div><img src="img/med_s_ananasom.jpg" alt="Мед с ананасом" title="Мед с ананасом"></div>
+						 		<div><img src="img/Med_s_fistashkoy.jpg" alt="Мед с фистаккой" title="Мед с фистаккой"></div>
+						 		<div><img src="img/med_s_golubikoi.jpg" alt="Мед с голубикой" title="Мед с голубикой"></div>
+						 		<div><img src="img/Med_s_greckim.jpg" alt="Чайный домик" title="Чайный домик"></div>
+								<div><img src="img/med_s_kakao.jpg" alt="Мед с кокао" title="Мед с кокао"></div>
+						 		<div><img src="img/med_s_zemlynikoi.jpg" alt="Мед с земляникой" title="Мед с земляникой"></div>
+							</div>
+							</div>
+						</div>
+					</div>
+					<!-- Конец всплывающего окна с описанием -->
+					<div class="col-md-3" onclick="$('#exampleModal_set_tee').arcticmodal(slider_tea_set)">
+						<div class="hit__sale_assortiment">
+							<p class="hit__sale_zag upper bolder center">
+								Подарочные наборы
+							</p>
+							<img src="img/Nabor-tee-basket.jpg" alt="чай в дизайнерских боксах" class="hit__sale_pic">
+							<p class="hit__sale_title center upper">
+								Наборы чая <br> в дизайнерских упаковках
+							</p>
+							<div class="hit__sale_botton center">
+								Цена 100 р.
+							</div>
+						</div>
+					</div>
+					<!-- Всплывающее окно с описанием -->
+					<div style="display: none;"> 
+   	 					<div class="box-modal" id="exampleModal_set_tee">
+							<div class="box-modal_close arcticmodal-close">закрыть</div>
+							<div class="wap__slider">
+								<div class="slider_tea_set">
+									<div><img src="img/set_tee_01.jpg" alt="Подарочный набор" title="Подарочный набор"></div>
+									<div><img src="img/set_tee_02.jpg" alt="Подарочный набор" title="Подарочный набор"></div>
+							 		<div><img src="img/set_tee_03.jpg" alt="Подарочный набор" title="Подарочный набор"></div>
+							 		<div><img src="img/set_tee_04.jpg" alt="Подарочный набор" title="Подарочный набор"></div>
+							 		<div><img src="img/set_tee_05.jpg" alt="Подарочный набор" title="Подарочный набор"></div>
+									<div><img src="img/set_tee_06.jpg" alt="Подарочный набор" title="Подарочный набор"></div>
+							 		<div><img src="img/set_tee_07.jpg" alt="Подарочный набор" title="Подарочный набор"></div>
+							 		<div><img src="img/set_tee_08.jpg" alt="Подарочный набор" title="Подарочный набор"></div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- Конец всплывающего окна с описанием -->
+					<div class="col-md-3"onclick="$('#exampleModal_tee_flow').arcticmodal()">
+						<div class="hit__sale_assortiment">
+							<p class="hit__sale_zag upper bolder center">
+								Чай "Цветок"
+							</p>
+							<img src="img/Tee-Flow.jpg" alt="чайный цветок" class="hit__sale_pic">
+							<p class="hit__sale_title center upper">
+								Чай который распускается как цветок
+							</p>
+							<div class="hit__sale_botton center">
+								Цена 100 р.
+							</div>
+						</div>
+					</div>
+					<!-- Всплывающее окно с описанием -->
+					<div style="display: none;"> 
+   	 					<div class="box-modal" id="exampleModal_tee_flow">
+							<div class="box-modal_close arcticmodal-close">закрыть
+							</div>
+						 	<img src="img/Tee-Flow.jpg" alt="Чай цветок" class="hit__sale_pic">
+						 	<p>
+						 		Что такое связанный чай <br>
+
+								<b>Связанный чай </b>иначе называют <b>цветущим</b>. Несколько листьев чая обрамляют несколько сухих цветочков. Зачастую используются листья зелёного чая, но также возможен как белый, так и чёрный.<br>
+
+								<b>Почему зелёный?</b> Немаловажную роль играет форма, которая придаётся этому произведению. Листья зелёного чая более податливы, поэтому предпочитают использовать именно их.<br>
+
+								<b>Готовый напиток похож на шар</b> (потому что родом он из Китая, а шар в этой стране является символом любви), который распускается, когда его кладут в горячую воду, и он раскрывается, показывая всю свою красоту – цветочек, положенный внутрь.<br>
+
+								<b>Когда надоела банальность</b> в виде чаёв из пакетика или обычных для заваривания или хочется преподнести оригинальный подарок для истинных ценителей чая, то такой вариант будет максимально оптимальным.<br>
+
+								По китайским традициям его подают на какие-то особые случаи для важных гостей или дарят в подарок, ведь он обладает огромными целебными свойствами. 
+						 	</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- ___<<<Карта>>____ -->
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<h2 class="hit__sale_new">
+						Где мы находимся
+					</h2>
+					<div class="map__kontur">
+						<script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Ad22ebe38e4f5195222151256cbcffacb2cc02d194d3513d5966753dc0bee52cb&amp;width=100%25&amp;height=615&amp;lang=ru_RU&amp;scroll=true"></script>
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+
+
+		<!-- ___<<Футер>>___ -->
+		<footer>
+			<div class="footer">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-9">
+							<div class="social__net wite">
+								<div class="instagramm__adress_inst">
+									https://instagram.com/melissa.uren
+								</div>
+							</div>
+							<div class="social__net wite">
+								<p class="instagramm__adress_bk">
+									https://vk.com/melissa.uren
+								</p>
+							</div>
+							<div class="social__net_tell wite">
+								<p class="instagramm__adress">
+									+7 965 187 31 35
+								</p>
+							</div>
+						</div>
+						<div class="col-md-3 ">
+							<div class="social__net_logo wite">
+								<div class="foot__logo_title">
+									C любовью к вам!
+								</div>
+								<div class="foot__logo_tell" poll-left>
+									г. Урень, ул. Ленина, 
+									д. 101а <br>
+									(здание типографии)
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+		
+	</header>
+
+	<script src="bower/bootstrap/dist/js/bootstrap.js"></script>
+	<script src="bower/bootstrap/dist/js/bootstrap.min.js"></script>
+	<script src="bower/jquery/dist/jquery.min.js"></script>
+	<script src="bower/jquery/dist/jquery.js"></script>
+	<script src="js/main.js"></script>	
+	<script src="js/jquery.arcticmodal-0.3.min.js"></script>
+	<script src="node_modules/bxslider/dist/jquery.bxslider.min.js"></script>
+
+	<!-- ___<<Яндекс>>___ -->
+	<script src="https://api-maps.yandex.ru/2.1/?apikey=ваш API-ключ&lang=ru_RU" type="text/javascript"> </script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</body>
+</html>
